@@ -1,0 +1,47 @@
+/**
+ * MarkAsJunk2 plugin styles
+ */
+
+#messagetoolbar a.markasjunk2,
+#messagetoolbar a.markasnotjunk2
+{
+  text-indent: -5000px;
+  background-image: url(images/mail_toolbar.png);
+}
+
+#messagetoolbar a.markasjunk2
+{
+  background-position: -32px 0;
+}
+
+#messagetoolbar a.markasjunk2.pressed
+{
+  background-position: -32px -32px;
+}
+
+#messagetoolbar a.markasnotjunk2
+{
+  background-position: 0 0;
+}
+
+#messagetoolbar a.markasnotjunk2.pressed
+{
+  background-position: 0 -32px;
+}
+
+ul.toolbarmenu li a.markasjunk2,
+ul.toolbarmenu li a.markasnotjunk2
+{
+  background-image: url(images/messageactions.png) !important;
+  background-repeat: no-repeat;
+}
+
+ul.toolbarmenu li a.markasjunk2
+{
+  background-position: 6px -17px !important;
+}
+
+ul.toolbarmenu li a.markasnotjunk2
+{
+  background-position: 6px 1px !important;
+}
